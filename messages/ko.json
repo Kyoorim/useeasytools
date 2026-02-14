@@ -1,6 +1,23 @@
 {
+  "Navbar": {
+    "logo": "UseEasyTools",
+    "tagline": "브라우저 기반 파일 도구"
+  },
+  "Footer": {
+    "copyright": "© {year} UseEasyTools. All rights reserved.",
+    "privacy": "개인정보처리방침",
+    "terms": "이용약관",
+    "contact": "문의하기"
+  },
+  "SecurityBadge": {
+    "label": "보안 중심 설계",
+    "title": "Your files never leave your browser",
+    "subtitle": "파일은 브라우저를 떠나지 않습니다"
+  },
   "HomePage": {
-    "title": "useeasytools.com에 오신 것을 환영합니다",
-    "description": "한국어가 기본 언어로 설정되었습니다."
+    "eyebrow": "간편하고 안전한 온라인 유틸리티",
+    "title": "파일 작업을 더 쉽고 빠르게",
+    "description": "PDF 변환, 압축, 병합 같은 작업을 설치 없이 브라우저에서 바로 처리하세요.",
+    "cta": "도구 살펴보기"
   }
 }

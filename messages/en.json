@@ -1,6 +1,23 @@
 {
+  "Navbar": {
+    "logo": "UseEasyTools",
+    "tagline": "Browser-based file utilities"
+  },
+  "Footer": {
+    "copyright": "© {year} UseEasyTools. All rights reserved.",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "contact": "Contact"
+  },
+  "SecurityBadge": {
+    "label": "Security first",
+    "title": "Your files never leave your browser",
+    "subtitle": "All processing happens locally in your browser."
+  },
   "HomePage": {
-    "title": "Welcome to useeasytools.com",
-    "description": "English language support is enabled."
+    "eyebrow": "Simple and secure online utilities",
+    "title": "Handle file tasks faster",
+    "description": "Convert, compress, and merge files directly in your browser with no installs.",
+    "cta": "Explore tools"
   }
 }
