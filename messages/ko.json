@@ -18,7 +18,19 @@
     "eyebrow": "간편하고 안전한 온라인 유틸리티",
     "title": "파일 작업을 더 쉽고 빠르게",
     "description": "PDF 변환, 압축, 병합 같은 작업을 설치 없이 브라우저에서 바로 처리하세요.",
-    "cta": "도구 살펴보기"
+    "cta": "도구 살펴보기",
+    "toolsHeading": "도구 리스트",
+    "tools": {
+      "openTool": "도구 열기",
+      "pageCounter": {
+        "title": "PDF 페이지 카운터",
+        "description": "여러 PDF의 전체 페이지 수를 빠르게 합산해서 확인합니다."
+      },
+      "textCleaner": {
+        "title": "PDF 줄바꿈 제거기",
+        "description": "복사한 PDF 텍스트의 줄바꿈, 문단, 공백을 자동으로 정리합니다."
+      }
+    }
   },
   "PdfPageCounterPage": {
     "heroTitle": "무료 온라인 PDF 페이지 수 세기",
@@ -46,6 +58,26 @@
       "fileTooLarge": "\"{name}\" 파일이 너무 큽니다. 파일당 최대 {maxSize}MB까지 가능합니다.",
       "totalTooLarge": "전체 파일 크기가 너무 큽니다. 총 {maxTotal}MB 이하로 업로드해 주세요.",
       "failedSome": "{count}개 파일은 분석하지 못했습니다. 나머지 결과만 표시합니다."
+    }
+  },
+  "PdfTextCleanerPage": {
+    "seoTitle": "PDF 줄바꿈 제거기 - 복사한 텍스트 문단 정리 도구",
+    "seoDescription": "PDF에서 복사한 줄바꿈 텍스트를 브라우저에서 즉시 정리하세요. 문단 합치기, 이중 공백 제거, 결과 복사를 지원합니다.",
+    "heroTitle": "PDF 줄바꿈 제거기",
+    "heroDescription": "복사한 PDF 텍스트를 붙여넣으면 문장 흐름을 유지하면서 줄바꿈과 공백을 깔끔하게 정리합니다.",
+    "securityLabel": "100% Client-side",
+    "securityText": "텍스트는 서버로 전송되지 않고 브라우저에서만 처리됩니다.",
+    "sourceLabel": "원문 입력",
+    "sourcePlaceholder": "정리할 텍스트를 여기에 붙여넣으세요.",
+    "resultLabel": "정제된 결과",
+    "resultPlaceholder": "왼쪽에 텍스트를 입력하면 결과가 실시간으로 표시됩니다.",
+    "actions": {
+      "removeLineBreaks": "줄바꿈 제거",
+      "mergeParagraphs": "문단 합치기",
+      "removeDoubleSpaces": "이중 공백 제거",
+      "keepSentenceBreaks": "점 뒤 줄바꿈 유지",
+      "copy": "복사하기",
+      "copied": "복사됨"
     }
   }
 }

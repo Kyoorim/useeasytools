@@ -18,7 +18,19 @@
     "eyebrow": "Simple and secure online utilities",
     "title": "Handle file tasks faster",
     "description": "Convert, compress, and merge files directly in your browser with no installs.",
-    "cta": "Explore tools"
+    "cta": "Explore tools",
+    "toolsHeading": "Tool list",
+    "tools": {
+      "openTool": "Open tool",
+      "pageCounter": {
+        "title": "PDF Page Counter",
+        "description": "Quickly sum total pages across one or multiple PDF files."
+      },
+      "textCleaner": {
+        "title": "PDF Text Cleaner",
+        "description": "Clean copied PDF text by fixing line breaks, paragraphs, and extra spaces."
+      }
+    }
   },
   "PdfPageCounterPage": {
     "heroTitle": "Free Online PDF Page Counter",
@@ -46,6 +58,26 @@
       "fileTooLarge": "\"{name}\" is too large. Maximum {maxSize}MB per file.",
       "totalTooLarge": "Total file size is too large. Keep it under {maxTotal}MB.",
       "failedSome": "{count} files could not be analyzed. Showing the remaining results."
+    }
+  },
+  "PdfTextCleanerPage": {
+    "seoTitle": "PDF Text Cleaner - Remove Line Breaks & Fix Paragraphs",
+    "seoDescription": "Clean copied PDF text instantly in your browser. Remove line breaks, merge paragraphs, remove double spaces, and copy the result.",
+    "heroTitle": "PDF Text Cleaner",
+    "heroDescription": "Paste copied PDF text and clean line breaks and spacing with a live preview.",
+    "securityLabel": "100% Client-side",
+    "securityText": "Text never leaves your browser.",
+    "sourceLabel": "Original text",
+    "sourcePlaceholder": "Paste text from your PDF here.",
+    "resultLabel": "Cleaned result",
+    "resultPlaceholder": "The cleaned output appears here in real time.",
+    "actions": {
+      "removeLineBreaks": "Remove line breaks",
+      "mergeParagraphs": "Merge paragraphs",
+      "removeDoubleSpaces": "Remove double spaces",
+      "keepSentenceBreaks": "Keep breaks after periods",
+      "copy": "Copy",
+      "copied": "Copied"
     }
   }
 }

@@ -18,6 +18,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
       changeFrequency: "weekly" as const,
     },
+    {
+      path: "/ko/pdf-text-cleaner",
+      priority: 0.9,
+      changeFrequency: "weekly" as const,
+    },
+    {
+      path: "/en/pdf-text-cleaner",
+      priority: 0.9,
+      changeFrequency: "weekly" as const,
+    },
   ];
 
   return routes.map((route) => ({
