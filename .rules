@@ -1,0 +1,7 @@
+# Project Rules (Top Priority)
+
+- 요청하지 않은 사항은 자체 판단으로 진행하지 않는다. 항상 옵션을 제시하고 사용자 확인 후 진행한다.
+- 모든 파일 처리는 Client-side only로 진행함 (보안 원칙).
+- i18n은 next-intl의 [locale] 라우팅 방식을 사용함.
+- 스타일링은 Tailwind CSS와 shadcn/ui를 사용함.
+- 컴포넌트는 모바일 퍼스트이며, 데스크탑 기준점은 1024px임.
