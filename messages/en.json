@@ -19,5 +19,33 @@
     "title": "Handle file tasks faster",
     "description": "Convert, compress, and merge files directly in your browser with no installs.",
     "cta": "Explore tools"
+  },
+  "PdfPageCounterPage": {
+    "heroTitle": "Free Online PDF Page Counter",
+    "heroDescription": "Count total PDF pages instantly in your browser with secure, no-upload processing.",
+    "dropzoneTitle": "Choose file or drag and drop",
+    "dropzoneHint": "Only PDF files are supported.",
+    "limitHint": "Up to 20 files, 50MB per file, and 200MB total.",
+    "pasteHint": "You can also paste a copied PDF with Ctrl/Cmd+V.",
+    "chooseFile": "Choose file",
+    "privacyLabel": "100% Client-side",
+    "privacyText": "Your file is never uploaded and is securely processed in your browser.",
+    "loading": "Analyzing...",
+    "loadingWithCount": "Analyzing {count} files...",
+    "resultTitle": "Page count complete",
+    "resultCountLabel": "Total pages",
+    "resultCountUnit": "pages",
+    "resultFileCount": "{count} files total",
+    "resultFileList": "Uploaded files",
+    "resultItemPages": "{count} pages",
+    "reset": "Start over",
+    "errors": {
+      "invalidPdf": "Only PDF files are supported.",
+      "failed": "Could not analyze this PDF. Please try another file.",
+      "tooManyFiles": "You can upload up to {max} files.",
+      "fileTooLarge": "\"{name}\" is too large. Maximum {maxSize}MB per file.",
+      "totalTooLarge": "Total file size is too large. Keep it under {maxTotal}MB.",
+      "failedSome": "{count} files could not be analyzed. Showing the remaining results."
+    }
   }
 }

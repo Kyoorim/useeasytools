@@ -19,5 +19,33 @@
     "title": "파일 작업을 더 쉽고 빠르게",
     "description": "PDF 변환, 압축, 병합 같은 작업을 설치 없이 브라우저에서 바로 처리하세요.",
     "cta": "도구 살펴보기"
+  },
+  "PdfPageCounterPage": {
+    "heroTitle": "무료 온라인 PDF 페이지 수 세기",
+    "heroDescription": "설치 없이 안전하게, 브라우저에서 PDF 총 페이지 수를 즉시 확인하세요.",
+    "dropzoneTitle": "파일 선택 또는 드래그 앤 드롭",
+    "dropzoneHint": "PDF 파일만 지원됩니다.",
+    "limitHint": "최대 20개, 파일당 50MB, 총 200MB까지 업로드할 수 있습니다.",
+    "pasteHint": "복사한 PDF 파일을 Ctrl/Cmd+V로 붙여넣을 수도 있습니다.",
+    "chooseFile": "파일 선택",
+    "privacyLabel": "100% Client-side",
+    "privacyText": "파일은 서버로 전송되지 않으며 브라우저 내에서 안전하게 처리됩니다",
+    "loading": "분석 중...",
+    "loadingWithCount": "{count}개 파일 분석 중...",
+    "resultTitle": "페이지 수 확인 완료",
+    "resultCountLabel": "총 페이지 수",
+    "resultCountUnit": "페이지",
+    "resultFileCount": "총 {count}개 파일",
+    "resultFileList": "업로드 파일 목록",
+    "resultItemPages": "{count} 페이지",
+    "reset": "다시 하기",
+    "errors": {
+      "invalidPdf": "PDF 파일만 업로드할 수 있습니다.",
+      "failed": "PDF 분석에 실패했습니다. 파일을 확인하고 다시 시도해 주세요.",
+      "tooManyFiles": "최대 {max}개 파일까지 업로드할 수 있습니다.",
+      "fileTooLarge": "\"{name}\" 파일이 너무 큽니다. 파일당 최대 {maxSize}MB까지 가능합니다.",
+      "totalTooLarge": "전체 파일 크기가 너무 큽니다. 총 {maxTotal}MB 이하로 업로드해 주세요.",
+      "failedSome": "{count}개 파일은 분석하지 못했습니다. 나머지 결과만 표시합니다."
+    }
   }
 }

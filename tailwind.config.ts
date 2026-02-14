@@ -1,6 +1,4 @@
-import type { Config } from "tailwindcss";
-
-const config: Config = {
+const config = {
   content: [
     "./app/**/*.{ts,tsx}",
     "./components/**/*.{ts,tsx}",
@@ -26,6 +24,6 @@ const config: Config = {
       },
     },
   },
-};
+} as const;
 
 export default config;
