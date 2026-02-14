@@ -16,6 +16,7 @@ export async function generateMetadata({
 }: PageProps): Promise<Metadata> {
   const { locale } = await params;
   const currentLocale = getLocale(locale);
+  const imageUrl = `/${currentLocale}/opengraph-image`;
   const t = await getTranslations({
     locale: currentLocale,
     namespace: "PdfTextCleanerPage",
@@ -42,6 +43,20 @@ export async function generateMetadata({
       description: t("seoDescription"),
       url: `/${currentLocale}/pdf-text-cleaner`,
       locale: currentLocale === "ko" ? "ko_KR" : "en_US",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: "UseEasyTools",
+        },
+      ],
+    },
+    twitter: {
+      card: "summary",
+      title: t("seoTitle"),
+      description: t("seoDescription"),
+      images: [imageUrl],
     },
   };
 }

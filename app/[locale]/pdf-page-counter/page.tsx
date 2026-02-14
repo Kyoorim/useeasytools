@@ -38,6 +38,7 @@ export async function generateMetadata({
   const { locale } = await params;
   const currentLocale = getLocale(locale);
   const seo = SEO_BY_LOCALE[currentLocale];
+  const imageUrl = `/${currentLocale}/opengraph-image`;
 
   return {
     metadataBase: new URL(getSiteUrl()),
@@ -60,11 +61,20 @@ export async function generateMetadata({
       description: seo.description,
       url: `/${currentLocale}/pdf-page-counter`,
       locale: currentLocale === "ko" ? "ko_KR" : "en_US",
+      images: [
+        {
+          url: imageUrl,
+          width: 1200,
+          height: 630,
+          alt: "UseEasyTools",
+        },
+      ],
     },
     twitter: {
       card: "summary",
       title: seo.title,
       description: seo.description,
+      images: [imageUrl],
     },
   };
 }
